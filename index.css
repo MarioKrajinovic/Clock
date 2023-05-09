@@ -65,9 +65,3 @@ body{
     position: absolute;
     right: 40%;
 }
-@media only screen and (max-width: 500px){
-    .circle{
-        width: 350px;
-        height: 350px;
-    }
-}
