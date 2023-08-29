@@ -65,3 +65,34 @@ body{
     position: absolute;
     right: 40%;
 }
+@media only screen and (max-width: 425px){
+    .analog-watch{
+        width: 380px;
+        height: 380px;
+    }
+    .circle{
+        width: 20px;
+        top: 46%;
+    }
+}
+@media only screen and (max-width: 375px){
+    .analog-watch{
+        width: 350px;
+        height: 350px;
+    }
+    .hours{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 320px){
+    .analog-watch{
+        width: 300px;
+        height: 300px;
+    }
+    .minute, .second{
+        height: 100px;
+    }
+    .hour{
+        height: 90px;
+    }
+}
